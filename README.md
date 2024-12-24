@@ -42,7 +42,6 @@ It's a tie.
 
 Demo 🖥️
 ![My Image](logo.jpg)
-![Alt Text](logo.jpg)
 
 
 Technologies Used 🛠️
