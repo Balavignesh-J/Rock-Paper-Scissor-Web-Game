@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <header>
+            <h1>Rock Paper Scissor</h1>
+        </header>
+        <div class="container" id="container">
+            <div class="scoreboard">
+                <h2>Player Score</h2>
+                <p id="p-score">0</p>
+            </div>
+            <div class="player">
+                <h3>Player</h3>
+                <div class="p-btn">
+                    <button id="r" class="card">🪨</button>
+                    <button id="p" class="card">📄</button>
+                    <button id="s" class="card">✂️</button>
+                </div>
+            </div>
+            <div class="result">
+                <p id="result"></p>
+            </div>
+            <div class="computer">
+                <h3>Computer</h3>
+                <button id="opbtn" class="card">?</button>
+            </div>
+            <div class="scoreboard">
+                <h2>Computer Score</h2>
+                <p id="op-score">0</p>
+            </div>
+        </div>
+    <button class="card" id="last">Quit</button>
+    <div id="popup" class="d-none"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
