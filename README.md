@@ -41,8 +41,8 @@ It's a tie.
 
 
 Demo 🖥️
-![My Image](logo.png)
-![Alt Text](logo.png)
+![My Image](logo.jpg)
+![Alt Text](logo.jpg)
 
 
 Technologies Used 🛠️
